@@ -27,6 +27,13 @@
 
 # app
 
+## dart grammer
+
+# types numbers strings booleans lists symbols
+
+
+
+
 
 
 

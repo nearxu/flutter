@@ -15,3 +15,13 @@ class AddAction extends TodoAction{
   }
   int get id => _id;
 }
+
+class SetVisAction extends TodoAction{
+  final visitFilter filter;
+  SetVisAction({this.filter});
+}
+
+class ToggleAction extends TodoAction{
+  final int id;
+  ToggleAction({this.id});
+}
